@@ -3,7 +3,7 @@
 // TODO: Put go into a config.js
 // But how to include a file from local?
 
-var GETH_HOSTNAME = "127.0.0.1";	// put your IP address!
+var GETH_HOSTNAME = "65.21.7.175";	// put your IP address!
 var APP_HOSTNAME = "See package.json --> scripts --> start: Change 'localhost'!!!";
 
 var GETH_RPCPORT = 8545; 		// for geth --rpcport GETH_RPCPORT
@@ -83,7 +83,7 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
         var web3 = new Web3();
 
         // begin AltSheets changes
-        web3.setProvider(new web3.providers.HttpProvider("http://" + GETH_HOSTNAME + ":" + GETH_RPCPORT));
+        web3.setProvider(new web3.providers.HttpProvider("https://beefledgerwallet.com:8544"));
         // end AltSheets changes
 
         $rootScope.web3 = web3;
@@ -97,7 +97,7 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
             }
         }
 
-        sleepFor(5000)
+        //sleepFor(5000)
 
         console.log(web3.isConnected())
 
