@@ -97,6 +97,8 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
             }
         }
 
+        sleepFor(5000)
+
         console.log(web3.isConnected())
 
         var connected = false;
