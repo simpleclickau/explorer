@@ -97,6 +97,8 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
             }
         }
 
+        console.log(web3.isConnected())
+
         var connected = false;
         if (!web3.isConnected()) {
             $('#connectwarning').modal({keyboard: false, backdrop: 'static'})
