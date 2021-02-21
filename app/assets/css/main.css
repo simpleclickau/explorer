@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #293640;
+    background-color: #3f3f3f;
     color: #FFF;
 }
 
@@ -141,7 +141,7 @@ input.searchimain {
     padding-bottom: 25px;
     text-align: center;
     color: #FFF;
-    background-color: #293640;
+    background-color: #3f3f3f;
     width: 100%;
 }
 
