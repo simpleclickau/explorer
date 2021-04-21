@@ -1,4 +1,4 @@
-# ETH Block Explorer based off github.com/etherparty/explorer
+# Explorer README: ETH Block Explorer based off github.com/etherparty/explorer
 
 ![ETH Block Explorer Screenshot](https://i.imgur.com/8dPnAct.jpg)
 
