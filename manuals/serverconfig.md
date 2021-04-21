@@ -1,4 +1,4 @@
-# serverconfig
+# Explorer / Manuals / serverconfig
 
 For IP, and port, see
 * [app/app.js](https://github.com/altsheets/explorer/blob/MIT/app/app.js#L6-L10)
