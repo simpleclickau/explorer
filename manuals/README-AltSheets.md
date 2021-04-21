@@ -1,4 +1,4 @@
-README AltSheets 
+# explorer / manuals / README AltSheets 
 
 changed
 * app/app.js lines 1-18 and 51-53
